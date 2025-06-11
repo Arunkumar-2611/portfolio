@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arunkumar_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7aff255dcb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="name"><span class="A">A</span>runkumar</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servies">Projecs</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Full Stack Developer</p>
+                <h1>Hi, I'm <span>Arunkumar</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Arun_passport_size.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Enthusiastic and results-oriented Python Full Stack Developer with a solid background in
+                        developing user-friendly and efficient web apps. Proficient in front-end technologies such as
+                        HTML, CSS, JavaScript, and Bootstrap, as well as backend programming using Python, Flask, and
+                        Django. Expertise in database management using MySQL and ORM techniques for easy data
+                        integration.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONT-END</span><br>HTML, CSS, JAVASCRIPT(basics)</li>
+                            <li><span>BACK-END</span><br>PYTHON, DJANGO, FLASK, REST API, ORM</li>
+                            <li><span>DATABASE</span><br>MySQL(SQL)</li>
+                            <li><span>VERSION CONTROL</span><br>GIT & GITHUB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sep 2024-Present</span><br>Python Full Stack Development(Internship) at UNIQ
+                                Technologies,CHENNAI.</li>
+                            <li><span>Jun 2023-Jul 2023</span><br>Python(Internship) at ERP HUB Solutions, CHENNAI.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2024-2026</span><br>M.Sc Computer Science</li>
+                            <li><span> 2021-2024</span><br>B.Sc Computer Science</li>
+                            <li><span>2020-2021</span><br>Higher Secondory</li>
+                            <li><span>2018-2019</span><br>S.S.L.C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services---------------------->
+    <div id="services">
+        <div class="containter">
+            <h1 class="sub-tittle">My Project</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>E-Commerce</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet nobis expedita facilis ad
+                        dolor magnam! Nemo rem iste quas eaque reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Weather App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet nobis expedita facilis ad
+                        dolor magnam! Nemo rem iste quas eaque reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Applications</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet nobis expedita facilis ad
+                        dolor magnam! Nemo rem iste quas eaque reprehenderit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------portfolio-------------------->
+    <div id="portfolio">
+        <div class="containter">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="" alt="no image found">
+                    <div class="layer">
+                        <h3>Social Mdia App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Donload it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="" alt="no image found">
+                    <div class="layer">
+                        <h3>Social Mdia App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Donload it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="" alt="no image found">
+                    <div class="layer">
+                        <h3>Social Mdia App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Donload it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+    </div>
+<!------------------------contact------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>arunarunkumar.m333@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9344658609</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Arunkumar-2611"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arunkumar-m-532701233"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/ARUNKUMAR_M.pdf" download class="btn btn2">Download Resume</a>
+            </div> 
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="done()">Submit</button>
+                </form>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copyarun.made with myself   <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right='0';
+        }
+        function closemenu(){
+            sidemenu.style.right='-200px';
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwprw0ivntu-AVeberIut5WDNQKRy0-JQVliD9lQDq53U6-DKjRYmXk3EjVKJ9L-VBGBA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => form.reset())
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+    function done(){
+        alert("Your Message Submit Successfully ✔")
+    }
+</script>
+</body>
+
+</html>
